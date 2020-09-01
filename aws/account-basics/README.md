@@ -1,0 +1,29 @@
+# AWS Basics
+
+{% hint style="warning" %}
+Please be sure to review, bookmark and follow all the AWS related standards in the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws).
+{% endhint %}
+
+## Organizations
+
+Labs manages a set of AWS accounts using the [AWS Organizations](https://aws.amazon.com/organizations/) service. This allows us to create a structure and better manage dozens of separate accounts.
+
+* All student [AWS Product Accounts](../../) are located in the `Students` Organizational Unit \(OU\).
+* Only Engineering Managers can create new AWS Product Accounts.
+* Labs projects must never use AWS Accounts not managed by Lambda School Labs.
+
+## IAM Users
+
+Each member of a student team will have an associated IAM User. This IAM User will be created and managed by the APL for the Product.
+
+* Only APLs have the ability to provision and manage IAM Users
+* IAM Users have the permissions required to create API keys for their own use
+
+## IAM Groups
+
+Each account will have a group named `Students` that all student IAM Users will be assigned to. This group has only specific permissions required for their project, adhering to the [Principle of Least Privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege).
+
+## Labs Bot
+
+Labs APLs will have access to a Slack Bot that will allow them to manage user accounts for student teams.
+
