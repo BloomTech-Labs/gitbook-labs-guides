@@ -10,8 +10,7 @@ The steps below are for setting up an application using the console... _hint hin
 2. Create a new Single-Page App
    * Name: The product name \(e.g. Bridgegood\)
    * Base URIs: The list of domains to whitelist for CORS \(Wildcards not allowed\)
-     * http://localhost:8080/ \(For Java apps\)
-     * http://localhost:3000/ \(For Node.js Apps\)
+     * http://localhost:3000/ \(For Create React Apps\)
      * https://bridgegood.dev
      * https://a.bridgegood.dev
      * https://b.bridgegood.dev
