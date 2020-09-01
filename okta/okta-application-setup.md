@@ -6,6 +6,10 @@ The steps below are for setting up an application using the console... _hint hin
 
 ## Setting up an SPA
 
+{% hint style="info" %}
+Access to the Labs Okta domain is restricted, work with your Engineering Manager for any issues.
+{% endhint %}
+
 1. Sign-in to the Labs Okta domain as an admin: [https://auth.lambdaschool.com](https://auth.lambdaschool.com)
 2. Create a new Single-Page App
    * Name: The product name \(e.g. Bridgegood\)
