@@ -1,9 +1,5 @@
 # Home
 
-## Overview
-
-This doc provides some helpful guides that can be used during Labs.
-
 ## Glossary
 
 ### Product
