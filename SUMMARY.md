@@ -32,5 +32,6 @@
 
 ## Okta
 
+* [Okta Basics](okta/okta-basics.md)
 * [Okta Application Setup](okta/okta-application-setup.md)
 
