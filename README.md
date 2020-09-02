@@ -12,7 +12,7 @@ A business term for a set of applications, service or other resources that provi
 
 * A Product may exist for a very long time or sometimes not long at all
 * A Product may be implemented in many different ways and the implementation may change completely at some point during its lifespan
-* A _Product_ is a logical construct \(aka logical entity\), meaning its just a name that groups together a set of People, Projects and Resources
+* A _Product_ is a logical construct \(aka logical entity\), meaning it's just a name that groups together a set of People, Projects and Resources
 
 ### Product Role
 
