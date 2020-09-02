@@ -56,7 +56,7 @@ There is a single Client ID for each product that must be supplied to Labs proje
 
 Products have _one_ client id that is _shared_ among all active projects working on that product. Client IDs should _not_ be shared across products.
 
-![](../.gitbook/assets/image%20%282%29.png)
+![](../../.gitbook/assets/image%20%282%29.png)
 
 ### Issuer URI
 
