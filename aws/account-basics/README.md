@@ -2,6 +2,8 @@
 
 {% hint style="warning" %}
 Please be sure to review, bookmark and follow all the AWS related standards in the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws).
+
+Most important! Please note that all infrastructure must be created in the `us-east-1` region in AWS. Any infrastructure found outside that region will need to be moved immediately or will be automatically de-provisioned. Thank you!
 {% endhint %}
 
 ## Organizations
