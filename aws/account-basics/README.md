@@ -12,6 +12,8 @@ Labs manages a set of AWS accounts using the [AWS Organizations](https://aws.ama
 * Only Engineering Managers can create new AWS Product Accounts.
 * Labs projects must never use AWS Accounts not managed by Lambda School Labs.
 
+You can see a list of accounts [here](https://airtable.com/shrQHnZkU56jOLZe1/tbliohq0z8d3PQj4g). Note, this list is not automatically updated, if you don't see your account, contact your engineering manager! Thanks.
+
 ## IAM Users
 
 Each member of a student team will have an associated IAM User. This IAM User will be created and managed by the APL for the Product.

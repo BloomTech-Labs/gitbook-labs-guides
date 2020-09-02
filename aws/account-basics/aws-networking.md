@@ -44,7 +44,7 @@ An [AWS Hosted Zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/h
    4. Click create
 
 {% hint style="info" %}
-You'll need to occassionally make modifications to your hosted zone records, you'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
+You'll need to occasionally make modifications to your hosted zone records, you'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
 {% endhint %}
 
 ## **Product SSL Certificate**
