@@ -1,7 +1,7 @@
 # Okta Basics
 
 {% hint style="warning" %}
-Currently only APLs have direct access to Okta administration. If you have Okta issues, please reach out to your APL or Engineering Manager.
+Currently only Labs Managers have direct access to Okta administration. If you have Okta issues, please reach out to your Engineering Manager.
 {% endhint %}
 
 [Okta](https://www.okta.com/) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
@@ -61,19 +61,6 @@ Products have _one_ client id that is _shared_ among all active projects working
 ### Issuer URI
 
 The Issuer URI is also required for Labs projects to correctly configure authentication. For Labs projects, this value will _always_ be: [`https://auth.lambdalabs.dev/oauth2/default`](https://auth.lambdalabs.dev/oauth2/default)
-
-### Add Project to Okta Application
-
-Each Labs product has many projects in-flight at any given time. Each of these projects will need to have their production end-points configured in Okta for integration to work.
-
-1. Navigate to the Applications list in the Admin interface
-2. Click on the Okta Application you need to configure
-3. Click on the 'General' tab
-4. Click Edit
-5. **Please do not change** _**any**_ **configuration other than described below.**
-6. Ensure the project URIs have been added to the following attributes:
-   1. Login Redirect URL: The AWS Amplify URL with `/implicit/callback` appended
-   2. Logout Redirect URL: The AWS Amplify URL
 
 
 
