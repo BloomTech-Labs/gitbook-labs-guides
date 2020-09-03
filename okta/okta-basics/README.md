@@ -1,7 +1,7 @@
 # Okta Basics
 
 {% hint style="warning" %}
-Currently only Labs Managers have direct access to Okta administration. If you have Okta issues, please reach out to your Engineering Manager.
+Currently only Labs Managers have admin access to Okta administration. If you have Okta issues, please reach out to your Engineering Manager.
 {% endhint %}
 
 [Okta](https://www.okta.com/) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
