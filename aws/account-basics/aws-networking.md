@@ -44,6 +44,10 @@ An [AWS Hosted Zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/h
    4. Click create
 
 {% hint style="info" %}
+When you create a new Hosted Zone in Route 53, AWS will assign a set of 4 name servers. You'll need to provide these name servers to your Engineering Manager so they can configure them in the domain registration record via our domain registrar.
+{% endhint %}
+
+{% hint style="info" %}
 You'll need to occasionally make modifications to your hosted zone records, you'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
 {% endhint %}
 
