@@ -15,7 +15,7 @@ Access to the Labs Okta domain is restricted, work with your Engineering Manager
 {% endhint %}
 
 1. Sign-in to the Labs Okta domain as an admin: [https://auth.lambdaschool.com](https://auth.lambdaschool.com)
-2. Create a new Single-Page App
+2. [Create a new Single-Page App](https://dev-625244-admin.okta.com/dev/console/apps/new)
    * Name: The product name \(e.g. Bridgegood\)
    * Base URIs: The list of domains to whitelist for CORS \(Wildcards not allowed\)
      * http://localhost:3000/ \(For Create React Apps\)
