@@ -71,6 +71,6 @@ Every internet-facing product should be protected using an SSL certificate. You'
 10. After some time, around 10 minutes, the certificate should be fully validated and ready to use.
 
 {% hint style="info" %}
-You'll use this certificate as part of other services.You'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
+You'll use this certificate as part of other services. You'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
 {% endhint %}
 
