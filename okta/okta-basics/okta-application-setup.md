@@ -1,5 +1,9 @@
 # Okta Application Setup
 
+{% hint style="warning" %}
+Currently only Labs Managers have admin access to Okta. If you have Okta issues, please reach out to your Engineering Manager.
+{% endhint %}
+
 An Okta Application defines a client application that can use the Okta domain for authentication.
 
 The steps below are for setting up an application using the console... _hint hint_ these should all be available via the Okta API, maybe next step would be to write a small script... followed by automation?
