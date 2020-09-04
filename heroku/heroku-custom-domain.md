@@ -16,7 +16,7 @@ This is okay, but if you want to use your custom product domain \(e.g. `a-api.br
 8. Define simple record
    * Record name: Your API domain \(e.g. `a-api)`
    * Route traffic to: IP address or another value
-   * Value: The generated name from Heroky \(e.g. `concentric-turtle-7byvtq3pnb7n316b8zeu6peq.herokudns.com`\)
+   * Value: The generated name from Heroku \(e.g. `concentric-turtle-7byvtq3pnb7n316b8zeu6peq.herokudns.com`\)
    * Record type: CNAME
 9. Define simple record
 10. Create records
