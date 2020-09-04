@@ -10,6 +10,7 @@
 
 ## GitHub
 
+* [GitHub Basics](github/github-basics.md)
 * [Github Actions](github/github-actions.md)
 * [Github/Trello Integration](github/github-trello-integration.md)
 
