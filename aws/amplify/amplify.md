@@ -65,10 +65,17 @@ Similar to [Heroku Review apps](https://devcenter.heroku.com/articles/github-int
 
   "Enable previews"\)
 
-!!! Warning You will need to install a Github app to enable previews. Either your SL or Engineering Manager will need to do this for your repo.
+{% hint style="info" %}
+You will need to install a GitHub app to enable previews. Either your APL or Engineering Manager will need to do this for your repo.
+{% endhint %}
+
+
+
+```
+![Enable previews](../assets/images/aws-amplify/amplify-previews-github-app.png
+```
 
 ```text
-![Enable previews](../assets/images/aws-amplify/amplify-previews-github-app.png
 "Enable previews")
 ```
 
