@@ -25,10 +25,10 @@
 
 ## Heroku
 
-* [Heroku SSL](heroku/heroku-ssl/README.md)
-  * [PointDNS Setup](heroku/heroku-ssl/pointdns-setup.md)
-  * [Review Apps](heroku/heroku-ssl/review-apps.md)
+* [Heroku Basics](heroku/heroku-basics.md)
+* [Heroku Custom Domain](heroku/heroku-custom-domain.md)
 * [Heroku Pipelines](heroku/heroku-pipelines.md)
+* [Review Apps](heroku/review-apps.md)
 
 ## Okta
 
