@@ -1,4 +1,4 @@
-# Heroku Custom Domain
+# Heroku Networking
 
 By default, Heroku creates an endpoint for your application like this: 
 

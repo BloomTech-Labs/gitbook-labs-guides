@@ -26,7 +26,7 @@
 ## Heroku
 
 * [Heroku Basics](heroku/heroku-basics.md)
-* [Heroku Custom Domain](heroku/heroku-custom-domain.md)
+* [Heroku Networking](heroku/heroku-custom-domain.md)
 * [Heroku Pipelines](heroku/heroku-pipelines.md)
 * [Review Apps](heroku/review-apps.md)
 
