@@ -21,7 +21,7 @@ You can see a list of accounts [here](https://airtable.com/shrQHnZkU56jOLZe1/tbl
 Each member of a student team will have an associated IAM User. This IAM User will be created and managed by the APL for the Product.
 
 * Only APLs have the ability to provision and manage IAM Users
-* IAM Users have the permissions required to create API keys for their own use
+* IAM Users have the permissions required to [create AWS Access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey) for their own use
 
 ## IAM Groups
 
