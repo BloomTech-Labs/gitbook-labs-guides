@@ -4,7 +4,7 @@ By default, Heroku creates an endpoint for your application like this:
 
 * `https://bridges-a-api.herokuapp.com/` 
 
-This is okay, but if you want to use your custom product domain for your API, you can do this using Route 53.
+This is okay, but if you want to use your custom product domain \(e.g. `a-api.bridgestoprosperity.dev`\) for your API, you can do this using Route 53.
 
 1. In your Heroku application settings, click Add Domain
 2. Your domain name will be a subdomain of your product domain, following the [naming standards](https://docs.labs.lambdaschool.com/standards/infrastructure/dns#dns-200-product-subdomains). For example, if your product domain is `bridgestoprosperity.dev` and your team letter is 'a', your API domain will be `a-api.bridgestoprosperity.dev`
