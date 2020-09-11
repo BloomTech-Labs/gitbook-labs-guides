@@ -10,7 +10,7 @@ Most important! Please note that all infrastructure must be created in the `us-e
 
 Labs manages a set of AWS accounts using the [AWS Organizations](https://aws.amazon.com/organizations/) service. This allows us to create a structure and better manage dozens of separate accounts.
 
-* All student [AWS Product Accounts](../../) are located in the `Students` Organizational Unit \(OU\).
+* All student [AWS Product Accounts](../) are located in the `Students` Organizational Unit \(OU\).
 * Only Engineering Managers can create new AWS Product Accounts.
 * Labs projects must never use AWS Accounts not managed by Lambda School Labs.
 

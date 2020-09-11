@@ -1,9 +1,5 @@
 # Heroku Pipelines
 
-![Heroku banner](https://res.cloudinary.com/practicaldev/image/fetch/s--4NhCvnPh--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/edfjk41485ty56ik57v9.png)
-
-### Deploy Your Project With Staging Environment
-
 Heroku is an amazing hosting platform for any project. Today, I spun up an app to show you how easy it is to set up a Heroku pipeline connected to a GitHub repository and have your project, front or back end, deployed in minutes with a wonderful staging environment set up.
 
 Having a good staging environment set up can save you from accidentally running production. Trust me, I've been there. Thankfully you don't have to be a tech wizard to set up your project the right way. Setting up a pipeline for your project is as easy as hosting it. So, without further ado, let's dig in.

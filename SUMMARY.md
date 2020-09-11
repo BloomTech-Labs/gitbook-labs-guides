@@ -16,8 +16,8 @@
 
 ## AWS
 
-* [AWS Basics](aws/account-basics/README.md)
-  * [AWS Networking](aws/account-basics/aws-networking.md)
+* [AWS Basics](aws/account-basics.md)
+* [AWS Networking](aws/aws-networking.md)
 * [Amplify](aws/amplify/README.md)
   * [Amplify DNS](aws/amplify/amplify-dns.md)
   * [Amplify Deployment](aws/amplify/amplify.md)
@@ -26,10 +26,10 @@
 
 ## Heroku
 
-* [Heroku Basics](heroku/heroku-basics/README.md)
-  * [Heroku Networking](heroku/heroku-basics/heroku-custom-domain.md)
+* [Heroku Basics](heroku/heroku-basics.md)
+* [Heroku Networking](heroku/heroku-custom-domain.md)
 * [Heroku Pipelines](heroku/heroku-pipelines.md)
-* [Review Apps](heroku/review-apps.md)
+* [Heroku Review Apps](heroku/review-apps.md)
 
 ## Okta
 

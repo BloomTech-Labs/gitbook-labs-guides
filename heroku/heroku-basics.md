@@ -1,5 +1,7 @@
 # Heroku Basics
 
+![](../.gitbook/assets/image%20%283%29.png)
+
 ## SSL
 
 Enabling SSL is as easy as switching it on in the settings tab.
