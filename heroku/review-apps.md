@@ -1,14 +1,12 @@
 # Review Apps
 
-## Setting Up Review Apps On Heroku
-
-### Objective
+## Objective
 
 The Review Apps Heroku Pipeline would allow one not to have to use the Heroku remote to push to the staging server on Heroku. Overall, this should allow one to increase workload capacity since the Review Apps Pipeline could cut out the learning curve of deploying to Heroku via the Heroku remote through the CLI.
 
 Heroku deploys the HEAD commit of the branch that the associated Pull Request is created on. When the branch is updated Heroku redeploys to the connected repo on the Review Apps Pipeline with your latest commit.
 
-In summary, this guide will help you have a better understanding of what Review Apps on Heroku does and how to set it up for your Github repo.
+In summary, this guide will help you have a better understanding of what Review Apps on Heroku does and how to set it up for your GitHub repo.
 
 #### Technologies Discussed
 
