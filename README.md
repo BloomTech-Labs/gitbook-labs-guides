@@ -1,5 +1,15 @@
 # Home
 
+## Welcome!
+
+This space is a collection of [how-to](https://en.wikipedia.org/wiki/How-to) documents related to the various tools, frameworks, tools and platforms that are using in Labs. These guides are closely related to the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/) document.
+
+### Contributing
+
+These are living documents that try to represent a fast moving and ever-changing tech landscape. As such, there _will_ be errors and omissions as parts of these guides fall out-of-date.
+
+If you find gaps or issues in these documents, _please_ feel free to open an issue in the [corresponding GitHub repo](https://github.com/Lambda-School-Labs/gitbook-labs-guides). You are also welcome to submit a pull request, which will be reviewed by Labs managers.
+
 ## Glossary
 
 ### Product
