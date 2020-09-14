@@ -1,6 +1,8 @@
 # Heroku Basics
 
-![](../.gitbook/assets/image%20%283%29.png)
+{% hint style="warning" %}
+[Please read this first!!](https://docs.labs.lambdaschool.com/guides/always-read-this-first)
+{% endhint %}
 
 ## SSL
 
