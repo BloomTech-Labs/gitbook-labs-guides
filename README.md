@@ -2,6 +2,10 @@
 
 ## Welcome!
 
+{% hint style="warning" %}
+[Please read this first!!](https://docs.labs.lambdaschool.com/guides/always-read-this-first)
+{% endhint %}
+
 This space is a collection of [how-to](https://en.wikipedia.org/wiki/How-to) documents related to the various tools, frameworks, tools and platforms that are using in Labs. These guides are closely related to the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/) document.
 
 ### Contributing
