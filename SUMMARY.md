@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Home](README.md)
+* [Always Read This First!](always-read-this-first.md)
 
 ## Coding
 
