@@ -26,7 +26,7 @@ If you think you should have an invite, but can't find it, please talk to a Sect
 
 ## FAQ
 
-* Why am I being automatically subscribed to new repositories?
+### Why am I being automatically subscribed to new repositories?
 
-  Automatic subscriptions are controlled via your personal settings: [https://github.com/settings/notifications](https://github.com/settings/notifications)
+Automatic subscriptions are controlled via your personal settings: [https://github.com/settings/notifications](https://github.com/settings/notifications)
 
