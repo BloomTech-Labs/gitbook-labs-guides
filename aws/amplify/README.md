@@ -47,7 +47,7 @@ Always make absolutely sure that you are not storing any secrets in this file!
 
 ### Why is my build working locally, but not in Amplify?
 
-If you are building a project using Node.js, your dependencies will be downloaded and stored by NPM or Yarn in a `node_modules` folder. Dependency management is hard and sometimes NPM and Yarn store dependencies that break your build. When this happens, you can delete your `node_modules` folder and reinstall your dependencies. When Amplify builds a project, by default, it caches your `node_modules` folder to speed up the build process. Unfortunately, sometimes this means that a bad dependency will be "stuck" in the `node_modules` folder that is being cached by Amplify. You can force Amplify to delete your `node_modules` folder and rebuild your project by temporarily adding a step to your build process defined by your `amplify.yml` file:
+If you are building a project using Node.js, your dependencies will be downloaded and stored by NPM in a `node_modules` folder. Dependency management is hard and sometimes NPM store dependencies that break your build. When this happens, you can delete your `node_modules` folder and reinstall your dependencies. When Amplify builds a project, by default, it caches your `node_modules` folder to speed up the build process. Unfortunately, sometimes this means that a bad dependency will be "stuck" in the `node_modules` folder that is being cached by Amplify. You can force Amplify to delete your `node_modules` folder and rebuild your project by temporarily adding a step to your build process defined by your `amplify.yml` file:
 
 ```text
 version: 0.1
@@ -57,10 +57,10 @@ frontend:
       commands:
         # Temporarily delete node_modules before building
         - rm -rf node_modules
-        - yarn install
+        - npm install
     build:
       commands:
-        - yarn build
+        - npm build
   artifacts:
     baseDirectory: build
     files:

@@ -36,7 +36,7 @@ We will walk through the deployment of a front end react app on AWS Amplify, one
 
 * Initialize the react project and confirm it works
 
-  > `> yarn; yarn start; open http://localhost:3000`
+  > `> npm; npm start; open http://localhost:3000`
 
 * Push the repo to github
 
