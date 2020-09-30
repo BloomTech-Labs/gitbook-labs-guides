@@ -37,3 +37,7 @@
 * [Okta Basics](okta/okta-basics/README.md)
   * [Okta Application Setup](okta/okta-basics/okta-application-setup.md)
 
+## labs-cli
+
+* [Labs CLI Basics](labs-cli/labs-cli-basics.md)
+
