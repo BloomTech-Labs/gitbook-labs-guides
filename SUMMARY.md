@@ -28,6 +28,7 @@
 ## Heroku
 
 * [Heroku Basics](heroku/heroku-basics.md)
+* [Heroku Node Deployment](heroku/node-api-deploy.md)
 * [Heroku Networking](heroku/heroku-custom-domain.md)
 * [Heroku Pipelines](heroku/heroku-pipelines.md)
 * [Heroku Review Apps](heroku/review-apps.md)
