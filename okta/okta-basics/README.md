@@ -41,6 +41,9 @@ There are 5 test users, each one using a 3-digit sequence for username and passw
 | llama003@maildrop.cc | Test003Test | [https://maildrop.cc/inbox/llama003](https://maildrop.cc/inbox/llama003) |
 | llama004@maildrop.cc | Test004Test | [https://maildrop.cc/inbox/llama004](https://maildrop.cc/inbox/llama004) |
 | llama005@maildrop.cc | Test005Test | [https://maildrop.cc/inbox/llama005](https://maildrop.cc/inbox/llama005) |
+| llama006@maildrop.cc | Test006Test | [https://maildrop.cc/inbox/llama006](https://maildrop.cc/inbox/llama005) |
+| llama007@maildrop.cc | Test007Test | [https://maildrop.cc/inbox/llama007](https://maildrop.cc/inbox/llama005) |
+| llama008@maildrop.cc | Test008Test | [https://maildrop.cc/inbox/llama008](https://maildrop.cc/inbox/llama005) |
 
 Since the test users are using [maildrop.cc](https://maildrop.cc) for email, you can easily check their inbox if they are meant to receive email notifications from applications.
 
