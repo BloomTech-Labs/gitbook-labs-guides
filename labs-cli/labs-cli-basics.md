@@ -40,4 +40,3 @@ To use the CLI command follow this pattern and look at examples from specific ge
 If you only run `labs <generator-name> arguments` it will start a prompt based UX to collect all options
 
 ![](../.gitbook/assets/labs-cli-spa-prompt-ux.gif)
-
