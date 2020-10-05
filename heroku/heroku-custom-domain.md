@@ -24,5 +24,7 @@ This is okay, but if you want to use your custom product domain \(e.g. `a-api.br
 12. But once it does, you can now hit your Heroku app using `a-api.bridgestoprosperity.dev`
 13. Done!
 
+## What's Next
 
-
+If you haven't already setup Review Apps then head over to the
+[guide](heroku/review-apps) for more info
