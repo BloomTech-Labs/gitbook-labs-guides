@@ -1,6 +1,6 @@
 # Heroku Networking
 
-By default, Heroku creates an endpoint for your application like this: 
+By default, Heroku creates an endpoint for your application like this:
 
 * `https://bridges-a-api.herokuapp.com/` 
 
@@ -26,5 +26,5 @@ This is okay, but if you want to use your custom product domain \(e.g. `a-api.br
 
 ## What's Next
 
-If you haven't already setup Review Apps then head over to the
-[guide](heroku/review-apps) for more info
+If you haven't already setup Review Apps then head over to the [guide](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/review-apps/README.md) for more info
+

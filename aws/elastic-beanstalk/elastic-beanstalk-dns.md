@@ -8,7 +8,7 @@ This name follows our naming standards and is easier to remember and to share.
 
 First, open the AWS Route 53 console at [https://console.aws.amazon.com/route53/](https://console.aws.amazon.com/route53/). Route 53 is Amazon's [Domain Name System \(DNS\)](https://simple.wikipedia.org/wiki/Domain_Name_System) web service.   
   
-Then follow these instructions.
+Then follow these instructions:
 
 1. Click 'Create Record'
 2. Use 'Simple Routing'
@@ -37,19 +37,19 @@ The basic flow for hooking a proper domain name up to your environment is as fol
 2. Click 'Configuration'
 3. Click 'Edit' in the 'Load Balancer' section
 4. Click 'Add Listener' to add a new endpoint for your API
-   1. Port: 443
+   1. Listener Port: 443
       * This is the [standard](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports) port for HTTPS traffic
-   2. Protocol: HTTPS
+   2. Listener Protocol: HTTPS
       * This means the listener will encrypt traffic
-   3. SSL Certificate
+   3. Instance Port: 80
+      * This is the port your instances are listening on
+   4. Instance Protocol: HTTP
+      * The protocol your instances are using
+   5. SSL Certificate
       * You should see a certificate with your domain in this list, if not, contact your APL
-   4. SSL Policy
-      * Leave blank, the default is fine
-   5. Default Process
-      * Leave as `default`
    6. Click 'Add'
-   7. Scroll to the bottom and click 'Apply'
-      * Don't forget this step!!
+   7. **Scroll to the bottom and click 'Apply'**
+      * **Don't forget this step!!**
 
 ## How it works...
 
