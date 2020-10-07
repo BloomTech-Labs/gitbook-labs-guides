@@ -11,7 +11,7 @@ description: >-
 
 The labs CLI command is a nodejs application and can be installed with the following command:
 
-```
+```text
 > npm i -g @lambdalabs/labs
 ```
 
@@ -40,3 +40,4 @@ To use the CLI command follow this pattern and look at examples from specific ge
 If you only run `labs <generator-name> arguments` it will start a prompt based UX to collect all options
 
 ![](../.gitbook/assets/labs-cli-spa-prompt-ux.gif)
+

@@ -16,5 +16,5 @@ Enabling SSL is as easy as switching it on in the settings tab.
 
 ### How do we get a new or existing Heroku account?
 
-Your APL will provide your team access to a Heroku application as needed in
-a Lambda School managed Heroku account
+Your APL will provide your team access to a Heroku application as needed in a Lambda School managed Heroku account
+
