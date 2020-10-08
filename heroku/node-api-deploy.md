@@ -56,6 +56,8 @@ If you haven't gotten admin access to Heroku yet please ask you engineering mana
 
 ### Deployment - APLs
 
+#### Setup
+
 1. From the application tab navigation select `Deploy`
 2. Select the `GitHub` "Deployment Method"
 3. Find the `Connect to GitHub` section and select `Lambda-School-Labs`
@@ -64,13 +66,37 @@ If you haven't gotten admin access to Heroku yet please ask you engineering mana
 6. Select `Wait for CI to pass before deploy`
 7. `Enable Automatic Deploys` so that anytime a branch is merged into main
 
-   Heroku will deploy your app.
+#### First Deploy
 
-**Your team is now set up! Now when someone has a branched merged into `main` your team's app will update across the world wide web**
+{% hint style="info" %}
+There are 2 conditions where Heroku will likely not autmoatically deploy the
+app right after setup:
+
+
+1. The events `push` for the main branch and `ci_complete` haven't triggered
+2. There is no code in the repo yet 😬😂
+{% endhint %}
+
+When your repo is ready follow these steps to complete the deploy.
+
+1. run a manual deploy by hitting the `Deploy Branch` button at the bottom of
+   the page
+2. Click `Open app`; you will see the `"api":"up"` message if all is well.
+3. Using the heroku console run the following commands (Alternatively you
+   can use the heroku cli app)
+   1. `bash` then you can run the following commands from the shell
+   2. `npm run knex migrate:latest`
+   3. `npm run knex seed:run` this is optional if the team wants to start with
+      5 profiles.
+
+|    |    |
+| -- | -- |
+| ![run console](../.gitbook/assets/heroku/heroku-deploy-run-console.png) | ![console bash](../.gitbook/assets/heroku/heroku-deploy-console-bash.png) |
+
+**Your team is now set up! Now when someone has a PR merged into `main` your team's app will update across the world wide web**
 
 ### Next Steps
 
 See the [setting up a Custom Domain Guide](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/heroku-custom-domain/README.md) to make sure that your API doesn't have the ugly `herokuapp` in it's URL.
 
 Also, checkout how to [setup Review Apps](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/review-apps/README.md) to have Heroku automatically deploy your app for each github PR that you create.
-
