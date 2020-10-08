@@ -1,5 +1,7 @@
 # Heroku Node Deployment
 
+![Heroku](../.gitbook/assets/heroku-logo.png)
+
 As `Associate Product Lead` and `Technical Project Leads` you'll be responsible for provisioning Heroku accounts for your students, configuring the applications to use a `Postgres` addon, and granting access to the provisioned app to the students who need it \(should be WEB students primarily\).
 
 {% hint style="info" %}
@@ -97,6 +99,6 @@ When your repo is ready follow these steps to complete the deploy.
 
 ### Next Steps
 
-See the [setting up a Custom Domain Guide](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/heroku-custom-domain/README.md) to make sure that your API doesn't have the ugly `herokuapp` in it's URL.
+Checkout how to [setup Review Apps](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/review-apps/README.md) to have Heroku automatically deploy your app for each github PR that you create.
 
-Also, checkout how to [setup Review Apps](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/review-apps/README.md) to have Heroku automatically deploy your app for each github PR that you create.
+Optionally, See the [setting up a Custom Domain Guide](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/f514baf6b1b0c2764cc2bce1739043d8ef763b96/heroku/heroku/heroku-custom-domain/README.md) to make sure that your API doesn't have the ugly `herokuapp` in it's URL.
