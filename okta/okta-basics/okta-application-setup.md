@@ -29,7 +29,6 @@ Access to the Labs Okta domain is restricted, work with your Engineering Manager
      * [https://g.bridgegood.dev](https://g.bridgegood.dev)
    * Login redirect URIs: List of allowed redirect URIs after login \(Wildcards allowed\)
      * labs://bridgegood/implicit/callback \(For iOS Apps\)
-     * [http://localhost:8080/implicit/callback](http://localhost:8080/implicit/callback)
      * [http://localhost:3000/implicit/callback](http://localhost:3000/implicit/callback)
      * [https://bridgegood.dev/implicit/callback](https://bridgegood.dev/implicit/callback)
      * [https://\*.bridgegood.dev/implicit/callback](https://*.bridgegood.dev/implicit/callback)
