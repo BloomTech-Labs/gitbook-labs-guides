@@ -4,17 +4,13 @@
 
 As `Associate Product Lead` and `Technical Project Leads` you'll be responsible for provisioning Heroku accounts for your students, configuring the applications to use a `Postgres` addon, and granting access to the provisioned app to the students who need it \(should be WEB students primarily\).
 
-{% hint style="info" %}
 Currently only APLs will have full admin access to apps.
 
 There are some settings any team member can perform, eg. `Environment Variables`
-{% endhint %}
 
 ## Steps to setting up and provisioning Heroku apps - APLs
 
-{% hint style="warning" %}
 If you haven't gotten admin access to Heroku yet please ask you engineering manager to set that up using your `Lambda School Student Email` \(@lambdastudents.com\)
-{% endhint %}
 
 1. Log into the Heroku console using your Lambda issued student email.
 
@@ -38,15 +34,11 @@ If you haven't gotten admin access to Heroku yet please ask you engineering mana
 ### Adding Members to the provisioned app - APLs
 
 1. Once the app is created click on the app and select the `access` tab
-2. Click `Add Member` and add your students \(please use their lambda issued
+2. Click `Add Member` and add your students \(please use their lambda issued emails\) and TPL to the app as making sure that `View`, `Deploy`, `Operate` boxes are all selected. Click `Save Changes`
 
-   emails\) and TPL to the app as making sure that `View`, `Deploy`, `Operate` boxes
+3. Your students should receive an email granting them access to their console; follow up and make sure they are able to get in
 
-   are all selected. Click `Save Changes`
-
-3. Your students should receive an email granting them access to their console;
-
-   follow up and make sure they are able to get in
+*Note: For build-ons, you'll be adding students to an existing Heroku app.*
 
 ### Environment Variables - Any team member with access
 
