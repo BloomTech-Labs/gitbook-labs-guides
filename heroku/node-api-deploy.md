@@ -35,10 +35,9 @@ If you haven't gotten admin access to Heroku yet please ask you engineering mana
 
 1. Once the app is created click on the app and select the `access` tab
 2. Click `Add Member` and add your students \(please use their lambda issued emails\) and TPL to the app as making sure that `View`, `Deploy`, `Operate` boxes are all selected. Click `Save Changes`
-
 3. Your students should receive an email granting them access to their console; follow up and make sure they are able to get in
 
-*Note: For build-ons, you'll be adding students to an existing Heroku app.*
+_Note: For build-ons, you'll be adding students to an existing Heroku app._
 
 ### Environment Variables - Any team member with access
 
@@ -92,7 +91,7 @@ When your repo is ready follow these steps to complete the deploy.
 
       5 profiles.
 
-|   |   |
+|  |  |
 | :--- | :--- |
 | ![run console](../.gitbook/assets/heroku-deploy-run-console.png) | ![console bash](../.gitbook/assets/heroku-deploy-console-bash.png) |
 

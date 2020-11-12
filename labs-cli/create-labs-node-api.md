@@ -6,7 +6,7 @@ This guide will walk you through the creation of a node express application with
 
 * Resource endpoints for a user `Profile`
 * Knex config and `Profile` model
-* Secrure routes suing middleware to **verify** okta JWT
+* Secure routes suing middleware to **verify** Okta JWT
 * tests for the `Profile` resource
 
 ## Installation
@@ -27,20 +27,20 @@ To see all the arguments and options visit the npmjs site for [Labs API Generato
 
 Now lets look at creating a new application entirely from the CLI. This app will use the following info:
 
-* \[Arg\] Project Name: `LabsPT12-ExpressGroomer-Team-C`
+* \[Arg\] Project Name: `BW-ExpressGroomer-Team-C`
   * this should be the team/project name
-* \[Opt\] Program: `Labs`
+* \[Opt\] Program: `BW`
 * \[Opt\] Team has DS team members: `No`
-* \[Opt\] github repo url: `https://github.com/LambdaLabs/labspt12-expressgroomer-team-c-be.git`
+* \[Opt\] Github repo url: `https://github.com/LambdaLabs/BW-expressgroomer-team-c-be.git`
   * this should be the same url you would clone from
 
 ### Run the command
 
 Now lets plug that info into the `labs` CLI command:
 
-`labs @lambdalabs/api LabsPT12-ExpressGroomer-Team-C --program=labs --hasDS=false --repoUrl=https://github.com/LambdaLabs/labspt12-expressgroomer-team-c-be.git`
+`labs @lambdalabs/api BW-ExpressGroomer-Team-C --program=BW --hasDS=false --repoUrl=https://github.com/LambdaLabs/BW-expressgroomer-team-c-be.git`
 
-All [options](https://www.npmjs.com/package/@lambdalabs/generator-api#prompts--options) have been statisfied so the `labs` CLI will start working doing the following work:
+All [options](https://www.npmjs.com/package/@lambdalabs/generator-api#prompts--options) have been satisfied so the `labs` CLI will start working doing the following work:
 
 * generate Labs Node Express API folder structure
 * generate files for an API app, resource examples with tests
@@ -50,8 +50,8 @@ All [options](https://www.npmjs.com/package/@lambdalabs/generator-api#prompts--o
   * `git init`
   * rename the default branch to `main`
   * make initial commit
-  * add github url as remote `origin`
-  * push repo to github
+  * add Github url as remote `origin`
+  * push repo to Github
 
 Phew 😅, that's a lot.
 
@@ -62,11 +62,11 @@ So now lets try creating the same app using the Prompts UX:
 We'll use the same info as above except for the following:
 
 * \[Arg\] Project Name: `LabsPT12-ExpressGroomer-Team-B`
-* \[Opt\] github repo url: `https://github.com/LambdaLabs/labspt12-expressgroomer-team-b-be.git`
+* \[Opt\] github repo url: `https://github.com/LambdaLabs/BW-expressgroomer-team-b-be.git`
 
-So lets run the `labs` CLI.
+So let's run the `labs` CLI.
 
-`labs @lambdalabs/spa LabsPT12-ExpressGroomer-Team-B`
+`labs @lambdalabs/api BW-ExpressGroomer-Team-B`
 
 You will now need to answer the following prompts:
 
