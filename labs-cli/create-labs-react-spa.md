@@ -20,14 +20,14 @@ Now lets create a new application entirely from the CLI. This app will use the f
 
 * \[Arg\] Project Name: `LabsPT12-ExpressGroomer-Team-C`
   * this should be the Labs team name
-* \[Opt\] Program: `Labs`
+* \[Opt\] Program: `BW`
 * \[Opt\] Team has DS team members: `No`
-* \[Opt\] github repo url: `https://github.com/LambdaLabs/labspt12-expressgroomer-team-c-fe.git`
+* \[Opt\] github repo url: `https://github.com/LambdaLabs/bw-expressgroomer-team-c-fe.git`
   * this should be the same url you would clone from
 
 Now lets plug that info into the `labs` CLI command:
 
-`labs @lambdalabs/spa LabsPT12-ExpressGroomer-Team-C --program=labs --hasDS=false --repoUrl=https://github.com/LambdaLabs/labspt12-expressgroomer-team-c-fe.git`
+`labs @lambdalabs/spa bw-ExpressGroomer-Team-C --program=BW --hasDS=false --repoUrl=https://github.com/LambdaLabs/bw-expressgroomer-team-c-fe.git`
 
 All [options](https://www.npmjs.com/package/@lambdalabs/generator-spa#prompts--options) have been statisfied so the `labs` CLI will start working doing the following work:
 
