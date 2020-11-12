@@ -66,7 +66,7 @@ We'll use the same info as above except for the following:
 
 So let's run the `labs` CLI.
 
-`labs @lambdalabs/api BW-ExpressGroomer-Team-B`
+`labs @lambdalabs/api labspt12-ExpressGroomer-Team-B`
 
 You will now need to answer the following prompts:
 
