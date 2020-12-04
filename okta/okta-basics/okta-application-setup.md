@@ -14,7 +14,7 @@ The steps below are for setting up an application using the console... _hint hin
 Access to the Labs Okta domain is restricted, work with your Engineering Manager for any issues.
 {% endhint %}
 
-1. Sign-in to the Labs Okta domain as an admin: [https://auth.lambdaschool.com](https://auth.lambdaschool.com)
+1. Sign-in to the Labs Okta domain as an admin: [https://auth.lambdalabs.dev](https://auth.lambdalabs.dev)
 2. [Create a new app in Okta as "Single-Page App](https://dev-625244-admin.okta.com/dev/console/apps/new)"
    * Name: The product name \(e.g. Bridgegood\)
    * Base URIs: The list of domains to whitelist for CORS \(Wildcards not allowed\)
