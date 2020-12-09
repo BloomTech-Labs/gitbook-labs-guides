@@ -16,12 +16,14 @@ Then follow these instructions:
 4. Click 'Define Simple Record'
 5. Your subdomain should follow the naming standards set in the [Labs Engineering Standards](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers#Well-known_ports)
    * Example: `c-ds.bridgestoprosperity.dev`
-6. Route to 'Alias to Elastic Beanstalk environment'
+6. Route traffic to 'Alias to Elastic Beanstalk environment'
 7. Region: `us-east-1`
    * You _did_ create your environment in `us-east-1` right?
 8. Record Type: [A](https://en.wikipedia.org/wiki/List_of_DNS_record_types)
 9. Click 'Define Simple Record'
 10. Click 'Create Records'
+
+![](../../.gitbook/assets/image%20%284%29.png)
 
 {% hint style="info" %}
 Your A record will now have been created and you can start using it to access your API endpoint. For example: http://c-ds.bridgestoprosperity.dev/
