@@ -1,6 +1,6 @@
 # Create a Labs React SPA
 
-The React SPA generator is used by the [Labs CLI](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/99d50db2598c8781016ceb9b1449fd8d3338d396/labs-cli/cli-basics/README.md) to generate greenfield SPA applications or add components.
+The React SPA generator is used by the [Labs CLI](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/99d50db2598c8781016ceb9b1449fd8d3338d396/labs-cli/cli-basics/README.md) to generate greenfield SPA applications or add components. Read more about the [scaffold app](https://docs.labs.lambdaschool.com/labs-spa-starter/) created by this generator.
 
 ## Installation
 

@@ -1,6 +1,6 @@
 # Create a Labs Node API
 
-The Node API generator is used by the [Labs CLI](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/99d50db2598c8781016ceb9b1449fd8d3338d396/labs-cli/cli-basics/README.md) to generate greenfield SPA applications or add components.
+The Node API generator is used by the [Labs CLI](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/99d50db2598c8781016ceb9b1449fd8d3338d396/labs-cli/cli-basics/README.md) to generate greenfield SPA applications or add components. Read more about the [scaffolding app](https://docs.labs.lambdaschool.com/api/) created by this generator.
 
 This guide will walk you through the creation of a node express application with the following items setup:
 
@@ -8,8 +8,6 @@ This guide will walk you through the creation of a node express application with
 * Knex config and `Profile` model
 * Secure routes suing middleware to **verify** Okta JWT
 * tests for the `Profile` resource
-
-## Installation
 
 ## Installation
 
