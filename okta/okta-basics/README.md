@@ -32,7 +32,7 @@ If you can't login, please contact your engineering manager.
 
 A set of test users has been created that teams can use for authentication. These users follow a simple naming convention to make it easy for projects to authenticated.
 
-There are 5 test users, each one using a 3-digit sequence for username and password:
+There are 8 test users, each one using a 3-digit sequence for username and password:
 
 | Username | Password | Mailbox |
 | :--- | :--- | :--- |
