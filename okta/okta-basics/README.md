@@ -10,6 +10,10 @@ We use a centralized identity management service because it is typically the way
 
 We use Okta specifically because it is an [industry leader](https://www.okta.com/resources/access-management-leader-gartner-magic-quadrant) and has high-quality support and documentation.
 
+Here is a quick walk thru of okta and how it is used in our Labs projects.
+
+{% embed url="https://youtu.be/04sENly7i\_E" %}
+
 ## The Okta Account
 
 Okta provides centralized identity management. This means that you can have a _single_ set of identities that can be used across many different applications. If you use Google services, you can see this in action as you log in to Google once but can move between Google apps \(Mail, Calendar, Sheets, etc.\) without having to log in each time.
