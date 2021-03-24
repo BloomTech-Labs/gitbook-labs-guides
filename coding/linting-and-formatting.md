@@ -24,15 +24,21 @@ Setting up linters and code formatters is really important to group projects. Wh
 
 Make sure every team member has [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) VS Code extension's installed.
 
-!!! Info It's recommended to turn format on save on. Click on prettier link above and search for "Format On Save" for instructions on setting that up in vs code. Also, check out section "Linter Integration". 🔥
+{% hint style="info" %}
+It's recommended to turn "Format On Save" on. Click on prettier link above and search for "Format On Save" for instructions on setting that up in vs code. Also, check out section "Linter Integration". 🔥
+{% endhint %}
 
 ### Configure ESLint and Prettier
 
 Now we need to add dependencies to our project with some rc files! Woo hoo! 👏
 
-In the root of your project's directory run; `yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier` or `npm i eslint prettier eslint-config-prettier eslint-plugin-prettier`.
+In the root of your project's directory run:
 
-!!! Note For react apps, add `eslint-plugin-react` to dependencies as well! Then we can add a file named `.eslintrc.js` with the following content for a react app.
+`npm i eslint prettier eslint-config-prettier eslint-plugin-prettier`
+
+{% hint style="info" %}
+For react apps, add `eslint-plugin-react` to dependencies as well! Then we can add a file named `.eslintrc.js` with the following content for a react app.
+{% endhint %}
 
 #### Example React Config
 
@@ -122,7 +128,7 @@ Then we can add some scripts to our `package.json`.
 
 ### Conclusion
 
-Setting up ESLint and Prettier in your projects can go a long way in helping you write better, more readable code. Even more so when your working in a team environment.
+Setting up ESLint and Prettier in your projects can go a long way in helping you write better, more readable code. Even more so when you're working in a team environment.
 
 You may have noticed that the "rules" key's where empty in the .eslintrc examples. ESLint does a lot by default but if you want more in-depth, fine grain control over the coding style for your project visit their [docs on rules here!](https://eslint.org/docs/rules/)
 
