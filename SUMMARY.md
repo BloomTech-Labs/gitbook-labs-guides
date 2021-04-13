@@ -3,6 +3,14 @@
 * [Home](README.md)
 * [Always Read This First!](always-read-this-first.md)
 
+## Product
+
+* [Product Roadmap](product/product-roadmap.md)
+* [Planning Your Product](product/planning-your-product/README.md)
+  * [Trello](product/planning-your-product/trello.md)
+  * [Daily Standups](product/planning-your-product/standup-best-practices.md)
+  * [User Stories & Task](product/planning-your-product/user-stories-and-task.md)
+
 ## Coding
 
 * [Git Workflow](coding/git-workflow.md)
