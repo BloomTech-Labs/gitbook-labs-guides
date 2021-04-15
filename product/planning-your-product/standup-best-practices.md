@@ -1,6 +1,6 @@
 # Daily Standups
 
-## **Labs Standup - Best Practices**
+## Lambda School **Labs Standup - Best Practices**
 
 Each team will participate in a standup.  Your assigned TPL leads the standup.  You are required to attend the standup as important information is shared.  The standup should be held at the start of class unless there is a GP.  If there is a GP, the standup will occur during the next timeslot.  We will explore some best practices that successful teams have implemented.
 
