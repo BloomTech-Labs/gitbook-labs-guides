@@ -1,6 +1,6 @@
 # Product Roadmap
 
-## Lambda Labs Product Roadmap
+## Lambda School Labs Product Roadmap
 
 Each team will be assigned a product.  We will break down each section of the product roadmap for clarification.  Your product roadmap is a high-level scope of work with a release schedule.  The release schedule will be where the core of your work will be focused.
 
