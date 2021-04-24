@@ -8,8 +8,9 @@
 * [Product Roadmap](product/product-roadmap.md)
 * [Planning Your Product](product/planning-your-product/README.md)
   * [Trello](product/planning-your-product/trello.md)
+  * [User Stories & Tasks](product/planning-your-product/user-stories-and-task.md)
   * [Daily Standups](product/planning-your-product/standup-best-practices.md)
-  * [User Stories & Task](product/planning-your-product/user-stories-and-task.md)
+* [Agile Methodology](product/agile-methodology.md)
 
 ## Coding
 
