@@ -10,7 +10,6 @@
   * [Trello](product/planning-your-product/trello.md)
   * [User Stories & Tasks](product/planning-your-product/user-stories-and-task.md)
   * [Daily Standups](product/planning-your-product/standup-best-practices.md)
-* [Agile Methodology](product/agile-methodology.md)
 
 ## Coding
 
