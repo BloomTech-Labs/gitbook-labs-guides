@@ -39,7 +39,7 @@ So, to get started on your first task let’s make a branch. Making sure you are
 
 ### Sharing Is Good
 
-Now you have a branch to make all your awesome commits to. However, since you just had your team in mind while naming the branch, let’s take a minute or two to do something extra nice for them. Let's us the “Early Pull Strategy” to allow team members to follow along but not be nagged by our ongoing commits. This is done simply by pushing our new branch to the **origin** then create a draft **PR** in GitHub.
+Now you have a branch to make all your awesome commits to. However, since you just had your team in mind while naming the branch, let’s take a minute or two to do something extra nice for them. Let's use the “Early Pull Strategy” to allow team members to follow along but not be nagged by our ongoing commits. This is done simply by pushing our new branch to the **origin** then create a draft **PR** in GitHub.
 
 > git push -u origin ${git\_current\_branch}
 
@@ -83,11 +83,11 @@ It’s really good practice to take the time to make comments in the code, even 
 
 ### QA changes on stage before merging to main
 
-Since you branched off of main your PR should be tested on stage prior to approving and merging. If there are no issues found on stage and no conflicts to be resolved in the code choose “Rebase and merge” or "Squash and merge" from the merge button and let's get onto main.
+Since you branched off of main, your PR should be tested on stage prior to approving and merging. If there are no issues found on stage and no conflicts to be resolved in the code choose “Rebase and merge” or "Squash and merge" from the merge button and let's get onto main.
 
 ![](../.gitbook/assets/github-merge.png)
 
-If you find yourself with a merge conflict there are a number of ways to solve it. The GitHub tools are very handy or you can do it locally. When going down the local path there is a good set of instructions at [About pull request merges](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges)
+If you find yourself with a merge conflict, there are a number of ways to solve it. The GitHub tools are very handy or you can do it locally. When going down the local path, there is a good set of instructions at [About pull request merges](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-request-merges)
 
 And now your code changes are on the main branch, ready to wow users with your updates. Deploy your code \(if not automatically handled by GitHub events\) and be ready to support any issues that arise.
 
