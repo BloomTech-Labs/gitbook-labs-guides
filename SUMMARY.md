@@ -16,6 +16,7 @@
 * [Git Workflow](coding/git-workflow.md)
 * [Git Rebase](coding/git-rebase.md)
 * [Linting and Formatting](coding/linting-and-formatting.md)
+* [Environment Variables](coding/environment-variables.md)
 
 ## GitHub
 

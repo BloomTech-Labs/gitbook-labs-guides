@@ -8,12 +8,12 @@ Heroku deploys the HEAD commit of the branch that the associated Pull Request is
 
 In summary, this guide will help you have a better understanding of what Review Apps on Heroku does and how to set it up for your GitHub repo.
 
-#### Technologies Discussed
+### Technologies Discussed
 
 * Heroku
 * Review Apps Pipeline
 
-#### Setting Up Review Apps Steps
+### Setting Up Review Apps Steps
 
 1.Create a Pipeline by going to your Heroku dashboard, going to `new`, clicking the dropdown, and clicking on `create new Pipeline`
 
@@ -34,7 +34,7 @@ In summary, this guide will help you have a better understanding of what Review 
 
 ![config pipeline](https://tk-assets.lambdaschool.com/0f2e4a39-c47d-4a07-baaf-c19d12e68ff5_ScreenShot2020-05-07at3.57.09PM.png)
 
-#### References
+### References
 
 For more information about setting up Review Apps on Heroku click [here](https://devcenter.heroku.com/articles/github-integration-review-apps#configuration)
 

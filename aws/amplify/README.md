@@ -36,10 +36,10 @@ Always make absolutely sure that you are not storing any secrets in this file!
 
   ```text
   <Error>
-  	<Code>AccessDenied</Code>
-  	<Message>Access Denied</Message>
-  	<RequestId>10B47523D97FE645</RequestId>
-  	<HostId>NGnyQXQ4VPYlEEqW6VHifVA=</HostId>
+      <Code>AccessDenied</Code>
+      <Message>Access Denied</Message>
+      <RequestId>10B47523D97FE645</RequestId>
+      <HostId>NGnyQXQ4VPYlEEqW6VHifVA=</HostId>
   </Error>
   ```
 

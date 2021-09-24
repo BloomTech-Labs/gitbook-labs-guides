@@ -12,7 +12,7 @@ We use Okta specifically because it is an [industry leader](https://www.okta.com
 
 Here is a quick walk thru of okta and how it is used in our Labs projects.
 
-{% embed url="https://youtu.be/04sENly7i\_E" %}
+{% embed url="https://youtu.be/04sENly7i\_E" caption="" %}
 
 ## The Okta Account
 
@@ -68,6 +68,4 @@ Products have _one_ client id that is _shared_ among all active projects working
 ### Issuer URI
 
 The Issuer URI is also required for Labs projects to correctly configure authentication. For Labs projects, this value will _always_ be: [`https://auth.lambdalabs.dev/oauth2/default`](https://auth.lambdalabs.dev/oauth2/default)
-
-
 

@@ -6,8 +6,8 @@ When your application is deployed to Elastic Beanstalk, you'll get an automatica
 
 This name follows our naming standards and is easier to remember and to share.
 
-First, open the AWS Route 53 console at [https://console.aws.amazon.com/route53/](https://console.aws.amazon.com/route53/). Route 53 is Amazon's [Domain Name System \(DNS\)](https://simple.wikipedia.org/wiki/Domain_Name_System) web service.   
-  
+First, open the AWS Route 53 console at [https://console.aws.amazon.com/route53/](https://console.aws.amazon.com/route53/). Route 53 is Amazon's [Domain Name System \(DNS\)](https://simple.wikipedia.org/wiki/Domain_Name_System) web service.
+
 Then follow these instructions:
 
 1. Click 'Create Record'
@@ -26,7 +26,7 @@ Then follow these instructions:
 ![](../../.gitbook/assets/image%20%284%29.png)
 
 {% hint style="info" %}
-Your A record will now have been created and you can start using it to access your API endpoint. For example: http://c-ds.bridgestoprosperity.dev/
+Your A record will now have been created and you can start using it to access your API endpoint. For example: [http://c-ds.bridgestoprosperity.dev/](http://c-ds.bridgestoprosperity.dev/)
 {% endhint %}
 
 ## Configuring SSL Termination

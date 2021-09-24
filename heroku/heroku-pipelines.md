@@ -4,12 +4,12 @@ Heroku is an amazing hosting platform for any project. Today, I spun up an app t
 
 Having a good staging environment set up can save you from accidentally running production. Trust me, I've been there. Thankfully you don't have to be a tech wizard to set up your project the right way. Setting up a pipeline for your project is as easy as hosting it. So, without further ado, let's dig in.
 
-#### Technologies Discussed
+## Technologies Discussed
 
 * [Heroku Pipeline](https://devcenter.heroku.com/articles/pipelines)
 * [GitHub](https://www.github.com)
 
-#### References
+## References
 
 In addition to the links above, you can watch a [full video walk through here.](https://youtu.be/nlBBAdkUEO4).
 
@@ -77,7 +77,7 @@ Since everything looked good on our staging app, we are going to go ahead and cl
 
 ![production website](https://dev-to-uploads.s3.amazonaws.com/i/5fh7rpe0tvpqdnirpf24.png)
 
-#### Conclusion
+## Conclusion
 
 We did it! Notice the URL here. This is our production URL now. If you bought a custom domain, you want to go into the settings tab in your production app and you can manage your domain name from there. If you have bought a secure domain with SLL \(which you totally should\) you will have to upgrade you subscript from free to hobby \($7 bucks a month\) for heroku to manage your SLL cert for you. Which is totally worth it in my opinion. Another amazing feature the pipeline has is that it's already set up so that if you make any pull requests to the master branch it will create a preview for that pull request that you will be able to see in the `Review Apps` section of your pipeline, so you can check every branch before it gets merged to master. Once it gets pushed to master, it will build and redeploy your staging app. If everything still looks and works the way it should, all you have to do is promote it to production and you are ready to rock and roll!
 

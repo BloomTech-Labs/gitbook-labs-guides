@@ -42,7 +42,7 @@ We will walk through the deployment of a front end react app on AWS Amplify, one
 
   > `> git push origin main`
 
-* Open the AWS Amplify console and connect an app. Choose to connect existing code from github and enter your `main` branch ![Open AWS Amplify Console](../assets/images/aws-amplify/aws-console-amplify.png) ![connect an app](../assets/images/aws-amplify/amplify-connect-app.png)
+* Open the AWS Amplify console and connect an app. Choose to connect existing code from github and enter your `main` branch ![Open AWS Amplify Console](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/aws-console-amplify.png) ![connect an app](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-connect-app.png)
 
 !!! Info You will need to authorize WAS with github to gain access. This is similar to services like Netlify and Heroku.
 
@@ -51,7 +51,7 @@ We will walk through the deployment of a front end react app on AWS Amplify, one
 "connect a repo")
 ```
 
-* Save the default settings and watch the deploy ![Deploy app](../assets/images/aws-amplify/amplify-deploy.png)
+* Save the default settings and watch the deploy ![Deploy app](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-deploy.png)
 * open your browser to the url amplify setup for you to confirm you have a Labs Standards compliant site running. 🎉
 
 ### Setup Previews
@@ -69,9 +69,7 @@ Similar to [Heroku Review apps](https://devcenter.heroku.com/articles/github-int
 You will need to install a GitHub app to enable previews. Either your APL or Engineering Manager will need to do this for your repo.
 {% endhint %}
 
-
-
-```
+```text
 ![Enable previews](../assets/images/aws-amplify/amplify-previews-github-app.png
 ```
 
@@ -79,10 +77,10 @@ You will need to install a GitHub app to enable previews. Either your APL or Eng
 "Enable previews")
 ```
 
-* After installing the github app open the preview for `main` branch and enable PR previews ![Manage previews](../assets/images/aws-amplify/amplify-manage-previews.png) ![Enable PR previews](../assets/images/aws-amplify/amplify-pr-previews.png)
+* After installing the github app open the preview for `main` branch and enable PR previews ![Manage previews](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-manage-previews.png) ![Enable PR previews](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-pr-previews.png)
 * All set. Now go commit a change to your project and push to a new branch so you can create a PR.
-* You should see a "github check" for `AWS Amplify Console Web Preview` in your PR Conversation view. ![PR preview](../assets/images/aws-amplify/amplify-pr-preview.png)
-* It will take a few minutes to create your app in AWS but when it's done a link to the site will appear in the previews list. ![PR in previews list](../assets/images/aws-amplify/amplify-pr-previews-list.png)
+* You should see a "github check" for `AWS Amplify Console Web Preview` in your PR Conversation view. ![PR preview](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-pr-preview.png)
+* It will take a few minutes to create your app in AWS but when it's done a link to the site will appear in the previews list. ![PR in previews list](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/aws/assets/images/aws-amplify/amplify-pr-previews-list.png)
 * Open the PR url and see your changes live.
 * When you merge your PR AWS Amplify will destroy the preview and automagically
 

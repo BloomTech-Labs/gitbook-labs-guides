@@ -21,7 +21,7 @@ General network setup for an AWS Product Account requires:
 Each Product will have one and only one domain that will be used for all network traffic to all endpoints in all projects. Please refer to the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/) for naming details.
 
 {% hint style="info" %}
-The product Hosted Zone must be created _before_ you can register the product domain name. This is because the name servers in the hosted zone _must_ be listed in the domain registration. 
+The product Hosted Zone must be created _before_ you can register the product domain name. This is because the name servers in the hosted zone _must_ be listed in the domain registration.
 
 If these don't match, DNS doesn't work.
 
@@ -32,7 +32,7 @@ However, domain registrations can always be updated by an engineering manager sh
 
 An [AWS Hosted Zone](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/hosted-zones-working-with.html) is a DNS resource for controlling name resolution for a domain. Each AWS Product Account will have a hosted zone setup to handle name requests for the product domain.
 
-#### Setup Hosted Zone
+### Setup Hosted Zone
 
 1. Navigate to the Route 53 service in the product account
 2. Click 'Hosted Zones' on the menu to see the list of hosted zones

@@ -33,7 +33,7 @@ Each account will have a group named `Students` that all student IAM Users will 
 
 Labs APLs will have access to a Slack Bot that will allow them to manage user accounts for student teams.
 
-#### Adding Users
+### Adding Users
 
 Labs Bot can create IAM users. These users should be created following the [naming format for IAM Users in the Engineering Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws#aw-200-resource-naming).
 

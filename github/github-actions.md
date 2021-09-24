@@ -1,14 +1,14 @@
 # Github Actions
 
-### Objective
+## Objective
 
 Provide an introduction to github actions, continuous integrations, and continuous delivery
 
-### Technologies
+## Technologies
 
 * Github Actions
 
-#### What are Github Actions
+### What are Github Actions
 
 Github actions provide developers the ability to automate routine and necessary tasks. This will allow you to spend more time on this things you love \(like code 👨‍💻\).
 
@@ -18,13 +18,13 @@ When a user interacts with a Github repository an event triggers \(eg. push requ
 
 Common use cases for GitHub Actions include Continuous Integration, and Continuous Deployment
 
-#### Setting up GitHub Actions
+### Setting up GitHub Actions
 
 * For every repository on GitHub there is an actions tab, which provides a log of every action performed on the server
 * In your repo .githib folder you will need to have a workflows folder, with each workflow as a .yml file. GitHub will automatically recognize all .yml files in this folder as workflows.
-* For each workflow you will want to make a separate .yml folder ![Setting Up Workflow Folders](../assets/images/github-actions/workflowFolder.png)
+* For each workflow you will want to make a separate .yml folder ![Setting Up Workflow Folders](https://github.com/Lambda-School-Labs/gitbook-labs-guides/tree/1b9f095385cbf02520a451e3ea7ed75d8d417963/assets/images/github-actions/workflowFolder.png)
 
-#### Parts of a YML File
+### Parts of a YML File
 
 A YML file, similar to a python script operates with indentation. Spacing determines what is nested beneath each operator.
 
@@ -43,12 +43,12 @@ Example .YML folder ![Example YML Folder](../.gitbook/assets/ymlexample.png)
 
 ![New Secret](../.gitbook/assets/newsecret.png)
 
-#### Continuous Deployment
+### Continuous Deployment
 
 * The example above was an example of using GitHub Actions for continuous deployment.
 * The purpose of continuous deployment is to push the code that we have written to our customers or a third party quickly and automatically. This allows features and bug fixes to be applied multiple times a day, once it passes our Quality Assurance checks.
 
-#### Example: Continuous Integration
+### Example: Continuous Integration
 
 The purpose of continuous integration is to streamline the process to merge developer's code multiple times per day.
 
@@ -58,7 +58,7 @@ For continuous integration to work, every time a pull request is made, GitHub wi
 
 The code here uses the community action paanbati/codeclimate-action to integrate with the Lambda Labs code climate.
 
-#### Links to external 3rd party tutorials and documentation
+### Links to external 3rd party tutorials and documentation
 
 * [Github Actions Documentation](https://help.github.com/en/actions)
 * [Fireship's GitHub Action's Tutorial](https://www.youtube.com/watch?v=eB0nUzAI7M8&t)

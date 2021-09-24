@@ -24,7 +24,7 @@ Setting up linters and code formatters is really important to group projects. Wh
 
 Make sure every team member has [prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) and [eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) VS Code extension's installed.
 
-By default, most Labs projects will have both already in the `DevDependancies`with a Labs config in place. In these cases you can simply run `npm run lint` to view any errors or warnings and `npm run lint:fix` will attempt to fix them  
+By default, most Labs projects will have both already in the `DevDependancies`with a Labs config in place. In these cases you can simply run `npm run lint` to view any errors or warnings and `npm run lint:fix` will attempt to fix them
 
 {% hint style="info" %}
 It's recommended to turn "Format On Save" on. Click on prettier link above and search for "Format On Save" for instructions on setting that up in vs code. Also, check out section "Linter Integration". 🔥

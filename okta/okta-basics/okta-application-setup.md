@@ -54,16 +54,13 @@ Access to the Labs Okta domain is restricted, work with your Engineering Manager
 7. Almost done!
 8. Click 'Trusted Origins' under the 'API' menu
 9. Click 'Add Origin' for each the root domain and each product subdomains:
-
    * ✅CORS
    * ✅Redirect
 
+* Bridgegood Root: [https://bridgegood.dev](https://bridgegood.dev)
+* Bridgegood a: [https://a.bridgegood.dev](https://a.bridgegood.dev)
+* Bridgegood b: [https://b.bridgegood.dev](https://b.bridgegood.dev)
+* Bridgegood c: [https://c.bridgegood.dev](https://c.bridgegood.dev)
 
-
-   * Bridgegood Root: [https://bridgegood.dev](https://bridgegood.dev)
-   * Bridgegood a: [https://a.bridgegood.dev](https://a.bridgegood.dev)
-   * Bridgegood b: [https://b.bridgegood.dev](https://b.bridgegood.dev)
-   * Bridgegood c: [https://c.bridgegood.dev](https://c.bridgegood.dev)
-
-10. Done!
+1. Done!
 
