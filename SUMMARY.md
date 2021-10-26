@@ -20,6 +20,7 @@
 
 ## GitHub
 
+* [Github FAQ](github/github-faq.md)
 * [GitHub Basics](github/github-basics.md)
 * [Github Actions](github/github-actions.md)
 * [Github/Trello Integration](github/github-trello-integration.md)
@@ -53,4 +54,3 @@
 * [Create a Labs React SPA](labs-cli/create-labs-react-spa.md)
 * [Create a Labs Node API](labs-cli/create-labs-node-api.md)
 * [Generate page component](labs-cli/new-page-component.md)
-
