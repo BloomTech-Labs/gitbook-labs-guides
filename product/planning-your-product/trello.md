@@ -1,6 +1,6 @@
 # Trello
 
-## Lambda School Labs and Trello
+## BloomTech Labs and Trello
 
 In this section, you will learn about Trello and how your teams will utilize it. Trello is a collaboration tool that organizes your projects into boards. One glance, Trello tells you tasks actively worked on, who's working on what, and where something is in a process.
 
@@ -20,14 +20,12 @@ Cards - The basic unit of the Trello board. Cards represent user stories, featur
 
 ![Adding a Card to the List](../../.gitbook/assets/adding-a-card.gif)
 
-| Trello Template & Card Guides |
-| :--- |
-| [Lambda School Labs Template](https://trello.com/b/ObKu30qj/labs-ptlabs-team-trello-board-template/derekpeters6/recommend) - You can create a board from the template |
-| [Editing a Card](https://help.trello.com/article/784-editing-cards) |
-| [Adding Labels to Cards](https://help.trello.com/article/797-adding-labels-to-cards) |
-| [Adding a Checklist](https://help.trello.com/article/737-adding-checklists-to-cards) |
-| [Adding Team Members to Cards](https://help.trello.com/article/807-adding-a-member-to-a-card) |
-| [Commenting on Cards](https://help.trello.com/article/765-commenting-on-cards) |
-| [Adding Power-ups](https://help.trello.com/article/810-enabling-power-ups) |
+| Trello Template & Card Guides                                                                    |
+| ------------------------------------------------------------------------------------------------ |
+| [Editing a Card](https://help.trello.com/article/784-editing-cards)                              |
+| [Adding Labels to Cards](https://help.trello.com/article/797-adding-labels-to-cards)             |
+| [Adding a Checklist](https://help.trello.com/article/737-adding-checklists-to-cards)             |
+| [Adding Team Members to Cards](https://help.trello.com/article/807-adding-a-member-to-a-card)    |
+| [Commenting on Cards](https://help.trello.com/article/765-commenting-on-cards)                   |
+| [Adding Power-ups](https://help.trello.com/article/810-enabling-power-ups)                       |
 | [Archiving and Deleting Cards](https://help.trello.com/article/795-archiving-and-deleting-cards) |
-

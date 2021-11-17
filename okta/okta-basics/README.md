@@ -4,7 +4,7 @@
 Currently only Labs Managers have admin access to Okta administration. If you have Okta issues, please reach out to your Engineering Manager.
 {% endhint %}
 
-[Okta](https://www.okta.com/) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
+[Okta](https://www.okta.com) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
 
 We use a centralized identity management service because it is typically the way applications are authenticated in the industry. This gives our students practice using centralized identity management technologies like [OAuth](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth) and [OIDC](https://openid.net/connect/faq/).
 
@@ -12,23 +12,23 @@ We use Okta specifically because it is an [industry leader](https://www.okta.com
 
 Here is a quick walk thru of okta and how it is used in our Labs projects.
 
-{% embed url="https://youtu.be/04sENly7i\_E" caption="" %}
+{% embed url="https://youtu.be/04sENly7i:E" %}
 
 ## The Okta Account
 
-Okta provides centralized identity management. This means that you can have a _single_ set of identities that can be used across many different applications. If you use Google services, you can see this in action as you log in to Google once but can move between Google apps \(Mail, Calendar, Sheets, etc.\) without having to log in each time.
+Okta provides centralized identity management. This means that you can have a _single_ set of identities that can be used across many different applications. If you use Google services, you can see this in action as you log in to Google once but can move between Google apps (Mail, Calendar, Sheets, etc.) without having to log in each time.
 
 We use Okta the same way. There is a _single_ Labs Okta account that has a set of identities that can access all Labs applications. These identities are test users that can be used by teams for testing their applications without having to constantly create new identities.
 
 Since Labs applications are always under development, it's very handy to have a set of test identities readily available to test various aspects of your application.
 
-Labs applications should _always_ authenticate using the alias \(auth.lambdalabs.dev\), though, for reference, the Labs Organization URL is: [https://dev-625244.okta.com](https://dev-625244.okta.comdashboard/)
+Labs applications should _always_ authenticate using the alias ([https://dev-625244.okta.com](https://dev-625244.okta.comdashboard)), though, for reference, the Labs Organization URL is: [https://dev-625244.okta.com](https://dev-625244.okta.comdashboard)
 
 ### Logging In
 
 As an APL, you'll have access to log in to the Labs Okta account to perform various tasks. Before Labs, you'll receive your login credentials and can use the following link to log in:
 
-[Labs - Sign In](https://auth.lambdalabs.dev/)
+[Labs - Sign In](https://auth.lambdalabs.dev)
 
 If you can't login, please contact your engineering manager.
 
@@ -38,8 +38,8 @@ A set of test users has been created that teams can use for authentication. Thes
 
 There are 8 test users, each one using a 3-digit sequence for username and password:
 
-| Username | Password | Mailbox |
-| :--- | :--- | :--- |
+| Username             | Password    | Mailbox                                                                  |
+| -------------------- | ----------- | ------------------------------------------------------------------------ |
 | llama001@maildrop.cc | Test001Test | [https://maildrop.cc/inbox/llama001](https://maildrop.cc/inbox/llama001) |
 | llama002@maildrop.cc | Test002Test | [https://maildrop.cc/inbox/llama002](https://maildrop.cc/inbox/llama002) |
 | llama003@maildrop.cc | Test003Test | [https://maildrop.cc/inbox/llama003](https://maildrop.cc/inbox/llama003) |
@@ -63,9 +63,8 @@ There is a single Client ID for each product that must be supplied to Labs proje
 
 Products have _one_ client id that is _shared_ among all active projects working on that product. Client IDs should _not_ be shared across products.
 
-![](../../.gitbook/assets/image%20%282%29.png)
+![](<../../.gitbook/assets/image (2).png>)
 
 ### Issuer URI
 
-The Issuer URI is also required for Labs projects to correctly configure authentication. For Labs projects, this value will _always_ be: [`https://auth.lambdalabs.dev/oauth2/default`](https://auth.lambdalabs.dev/oauth2/default)
-
+The Issuer URI is also required for Labs projects to correctly configure authentication. For Labs projects, this value will _always_ be: [https://dev-625244.okta.com`/oauth2/default`](https://dev-625244.okta.com/oauth2/default)``

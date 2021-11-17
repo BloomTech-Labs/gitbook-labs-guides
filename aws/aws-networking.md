@@ -1,7 +1,7 @@
 # AWS Networking
 
 {% hint style="warning" %}
-Please be sure to review, bookmark and follow all the AWS related standards in the [Labs Engineering Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws).
+Please be sure to review, bookmark and follow all the AWS related standards in the [Labs Engineering Standards.](https://bloomtechlabs.gitbook.io/standards/infrastructure/aws)
 {% endhint %}
 
 {% hint style="info" %}
@@ -59,10 +59,10 @@ Every internet-facing product should be protected using an SSL certificate. You'
 2. 'Request a Certificate'
 3. 'Request a public certificate'
 4. Ensure these 4 names are listed on the certificate:
-   1. The root domain \(e.g. `ecosoap.dev`\)
-   2. All first-level subdomains \(e.g. `*.ecosoap.dev`\)
-   3. All subdomains under `api` \(e.g. `*.api.ecosoap.dev`\)
-   4. All subdomains under `ds` \(e.g. `*.ds.ecosoap.dev`\)
+   1. The root domain (e.g. `ecosoap.dev`)
+   2. All first-level subdomains (e.g. `*.ecosoap.dev`)
+   3. All subdomains under `api` (e.g. `*.api.ecosoap.dev`)
+   4. All subdomains under `ds` (e.g. `*.ds.ecosoap.dev`)
 5. Click Next
 6. Choose 'DNS Validation'
 7. No tags are required
@@ -73,4 +73,3 @@ Every internet-facing product should be protected using an SSL certificate. You'
 {% hint style="info" %}
 You'll use this certificate as part of other services. You'll find those instructions embedded in these guides under specific services, such as Elastic Beanstalk.
 {% endhint %}
-

@@ -1,6 +1,6 @@
 # Daily Standups
 
-## Lambda School **Labs Standup - Best Practices**
+## BloomTech  **Labs Standup - Best Practices**
 
 Each team will participate in a standup. Your assigned TPL leads the standup. You are required to attend the standup as important information is shared. The standup should be held at the start of class unless there is a GP. If there is a GP, the standup will occur during the next timeslot. We will explore some best practices that successful teams have implemented.
 
@@ -12,11 +12,11 @@ This section aims to share best practices to help your team have effective stand
 
 Each standup should have a flow. This flow keeps everyone engaged and informed. During the standup, the TPL will share their Trello board so that everyone can have visibility to the discussion:
 
-![Flow of a Team&apos;s Standup Meeting](../../.gitbook/assets/image%20%285%29.png)
+![Flow of a Team's Standup Meeting](<../../.gitbook/assets/image (5).png>)
 
 #### A successful introduction
 
-The introduction is the very first part of the standup. The TPL is the owner and will share any news about the team's day, inform the group of scheduled meetings, or address any schedule changes \(if any\). During this time, the TPL will also address any outstanding actions from the previous day.
+The introduction is the very first part of the standup. The TPL is the owner and will share any news about the team's day, inform the group of scheduled meetings, or address any schedule changes (if any). During this time, the TPL will also address any outstanding actions from the previous day.
 
 #### Trello
 
@@ -31,4 +31,3 @@ While the TPL is asking these questions, they will work the Trello board based o
 To be effective on task completion, evaluate the work that is involved. If the task requires more than two developers, break that task into two tasks. It is good to ensure that no more than two developers, assigned per task as a practice. The goal is to keep the tasks manageable and to encourage pair programming.
 
 _**TPLs**_ – _Please note, for a project team to be successful. If you chase the blockers down while your team is working on features/tasks, the team will be more productive. The TPL should own getting this action. That way, the team members are not focused on items they could not resolve in 20+ minutes. If needed, please engage the APL, product, data science, or engineering managers._
-

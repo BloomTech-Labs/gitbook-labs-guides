@@ -47,10 +47,3 @@
 
 * [Okta Basics](okta/okta-basics/README.md)
   * [Okta Application Setup](okta/okta-basics/okta-application-setup.md)
-
-## labs-cli
-
-* [Labs CLI Basics](labs-cli/labs-cli-basics.md)
-* [Create a Labs React SPA](labs-cli/create-labs-react-spa.md)
-* [Create a Labs Node API](labs-cli/create-labs-node-api.md)
-* [Generate page component](labs-cli/new-page-component.md)
