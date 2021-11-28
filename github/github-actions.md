@@ -8,7 +8,7 @@ Provide an introduction to github actions, continuous integrations, and continuo
 
 * Github Actions
 
-### What are Github Actions
+### What are Github Actions?
 
 Github actions provide developers the ability to automate routine and necessary tasks. This will allow you to spend more time on this things you love (like code 👨‍💻).
 
