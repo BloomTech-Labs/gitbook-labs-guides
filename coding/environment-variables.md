@@ -1,6 +1,6 @@
 # Environment Variables
 
-Environment variables are used to configure your application to run in a specific environment. These environments are generally local development \(your laptop\), production \(a hosted server\), and other hosted servers related to non-production environments.
+Environment variables are used to configure your application to run in a specific environment. These environments are generally local development (your laptop), production (a hosted server), and other hosted servers related to non-production environments.
 
 There should be a single set of environment variables for your application, with each environment simply defining different values for those variables.
 
@@ -12,7 +12,7 @@ One set of environment variables, different values for each environment.
 You'll need to set up your environment variables in order to run your applications and develop locally.
 {% endhint %}
 
-{% embed url="https://youtu.be/UsAH3dLkvu4" %}
+{% embed url="https://youtu.be/vZa0nkKNMu0" %}
 
 For more information about security and protecting your secrets, [please see our entry in the Labs Guides.](https://docs.labs.lambdaschool.com/home/#please-read-this-carefully)
 
@@ -22,11 +22,11 @@ For more information about security and protecting your secrets, [please see our
 **Checking in files like your .env or secrets file to git and GitHub is a major security flaw**, and there are some secrets and keys you'll use in Labs that will be flagged automatically by bots scanning for such incidents. If you check in secrets to version control during Labs, expect to have to work with your engineering manager to scrub them from your git history!
 {% endhint %}
 
-### Anti-pattern \#1
+### Anti-pattern #1
 
 Having your application try to figure out which environment variables to use depending on the value of another environment variable.
 
-```text
+```
 import axios from "axios";
 
 axios.defaults.baseURL = (function() {
@@ -52,6 +52,3 @@ Why? Because this makes your application confusing to deploy and manage. Having 
 
 Plus, you almost never want your application to behave differently depending on which environment it's in. If it does, how will you be sure that it'll behave properly in production?
 {% endhint %}
-
-
-
