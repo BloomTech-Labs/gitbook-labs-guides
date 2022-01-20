@@ -26,6 +26,14 @@ So, you're ready to start work on a new Trello card, let's get started
 Obviously, you can't do anything with git until you’ve cloned the team repo. After that always make sure you start with a recent copy of the repo.
 {% endhint %}
 
+#### Cloning your project repository
+
+![Click on the 'code' button and select HTTPS](<../.gitbook/assets/Screen Shot 2022-01-20 at 9.55.30 AM.png>)
+
+* Copy the URL and head over to your command line
+* CD into the directory where you'd like your project stored on your machine and use the `git clone <paste-your-url-here>` command.
+* CD into your newly cloned project and you're ready to work!
+
 ```
     > git checkout main
     > git pull origin main
