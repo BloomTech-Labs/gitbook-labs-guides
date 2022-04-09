@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Home](README.md)
+* [Labs Engineering Guide](README.md)
 * [Always Read This First!](always-read-this-first.md)
 
 ## Product
