@@ -23,7 +23,7 @@
 * [Github FAQ](github/github-faq.md)
 * [GitHub Basics](github/github-basics.md)
 * [Github Actions](github/github-actions.md)
-* [Github/Trello Integration](github/github-trello-integration.md)
+* [Github/Jira Integration](github/github-trello-integration.md)
 
 ## AWS
 
