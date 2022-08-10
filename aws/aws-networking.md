@@ -5,7 +5,7 @@ Please be sure to review, bookmark and follow all the AWS related standards in t
 {% endhint %}
 
 {% hint style="info" %}
-Only APLs will have permissions to modify AWS network settings for a product account.
+Only RMs will have permissions to modify AWS network settings for a product account.
 {% endhint %}
 
 ## Overview

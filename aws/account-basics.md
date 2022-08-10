@@ -20,7 +20,7 @@ You can see a list of accounts [here](https://airtable.com/shrQHnZkU56jOLZe1/tbl
 
 ## IAM Users
 
-Each member of a student team will have an associated IAM User. This IAM User will be created and managed by the RM for the Product.
+Each member of a student team will have an associated IAM User. This IAM User will be created and managed by the APL for the Product.
 
 * Only APLs have the ability to provision and manage IAM Users
 * IAM Users have the permissions required to [create AWS Access keys](https://docs.aws.amazon.com/IAM/latest/UserGuide/id\_credentials\_access-keys.html#Using\_CreateAccessKey) for their own use
@@ -31,14 +31,14 @@ Each account will have a group named `Students` that all student IAM Users will 
 
 ## Labs Bot
 
-Labs RMs will have access to a Slack Bot that will allow them to manage user accounts for student teams.
+Labs APLs will have access to a Slack Bot that will allow them to manage user accounts for student teams.
 
 ### Adding Users
 
 Labs Bot can create IAM users. These users should be created following the [naming format for IAM Users in the Engineering Standards](https://docs.labs.lambdaschool.com/standards/infrastructure/aws#aw-200-resource-naming).
 
 {% hint style="info" %}
-RMs can run `/labsbot` in Slack to work with the Labs Bot
+APLs can run `/labsbot` in Slack to work with the Labs Bot
 {% endhint %}
 
 * Example: jane.doe@bloomtech.com - Jane Doe
