@@ -1,6 +1,6 @@
 # Heroku Node Deployment
 
-![Heroku](../.gitbook/assets/heroku-logo.png)
+![Heroku](<../.gitbook/assets/heroku-logo (1).png>)
 
 As `Associate Product Lead` and `Technical Project Leads` you'll be responsible for provisioning Heroku accounts for your students, configuring the applications to use a `Postgres` addon, and granting access to the provisioned app to the students who need it (should be WEB students primarily).
 
@@ -61,7 +61,7 @@ _Note: For build-ons, you'll be adding students to an existing Heroku app._
 6. Select `Wait for CI to pass before deploy`
 7. `Enable Automatic Deploys` so that anytime a branch is merged into main
 
-![connect repo](../.gitbook/assets/heroku-app-deploy-github-repo.png)
+![connect repo](<../.gitbook/assets/heroku-app-deploy-github-repo (1) (1) (1).png>)
 
 #### First Deploy
 

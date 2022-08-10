@@ -4,7 +4,7 @@
 Currently only Labs Managers have admin access to Okta administration. If you have Okta issues, please reach out to your Engineering Manager.
 {% endhint %}
 
-[Okta](https://www.okta.com) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
+[Okta](https://www.okta.com/) is an identity management service that's used in Labs to provide centralized authentication for Labs applications.
 
 We use a centralized identity management service because it is typically the way applications are authenticated in the industry. This gives our students practice using centralized identity management technologies like [OAuth](https://developer.okta.com/blog/2017/06/21/what-the-heck-is-oauth) and [OIDC](https://openid.net/connect/faq/).
 
@@ -22,13 +22,13 @@ We use Okta the same way. There is a _single_ Labs Okta account that has a set o
 
 Since Labs applications are always under development, it's very handy to have a set of test identities readily available to test various aspects of your application.
 
-Labs applications should _always_ authenticate using the alias ([https://dev-625244.okta.com](https://dev-625244.okta.comdashboard)), though, for reference, the Labs Organization URL is: [https://dev-625244.okta.com](https://dev-625244.okta.comdashboard)
+Labs applications should _always_ authenticate using the alias ([https://dev-625244.okta.com](https://dev-625244.okta.comdashboard/)), though, for reference, the Labs Organization URL is: [https://dev-625244.okta.com](https://dev-625244.okta.comdashboard/)
 
 ### Logging In
 
 As an APL, you'll have access to log in to the Labs Okta account to perform various tasks. Before Labs, you'll receive your login credentials and can use the following link to log in:
 
-[Labs - Sign In](https://auth.lambdalabs.dev)
+[Labs - Sign In](https://auth.lambdalabs.dev/)
 
 If you can't login, please contact your engineering manager.
 

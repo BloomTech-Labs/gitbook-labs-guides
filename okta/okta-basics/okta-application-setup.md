@@ -18,7 +18,7 @@ Access to the Labs Okta domain is restricted, work with your Engineering Manager
 2. [Create a new app in Okta as "Single-Page App](https://dev-625244-admin.okta.com/dev/console/apps/new)"
    * Name: The product name (e.g. Bridgegood)
    * Base URIs: The list of domains to whitelist for CORS (Wildcards not allowed)
-     * [http://localhost:3000/](http://localhost:3000) (For Create React Apps)
+     * [http://localhost:3000/](http://localhost:3000/) (For Create React Apps)
      * [https://bridgegood.dev](https://bridgegood.dev)
      * [https://a.bridgegood.dev](https://a.bridgegood.dev)
      * [https://b.bridgegood.dev](https://b.bridgegood.dev)

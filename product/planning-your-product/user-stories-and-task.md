@@ -6,7 +6,7 @@
 
 The Agile framework has brought about a definite cultural shift in the software development world, away from extensive planning and iterative and lean execution. However, one thing that has not changed is that everyone still expects estimations of when developers will deliver software features and how long a project will take to complete. Task planning and estimates are complex, perhaps enough to consider them as both science and art. It can feel like an intimidating, daunting task for developers.
 
-When it comes to breaking down Agile user stories into tasks and estimating their level of effort, there are good enough "science,” or at least proven practices\*\*.\*\*
+When it comes to breaking down Agile user stories into tasks and estimating their level of effort, there are good enough "science,” or at least proven practices.
 
 ## **User Story**
 
