@@ -16,7 +16,7 @@ An Application in AWS Amplify represents a group of deployments from a specific 
 
 ### How do I request a new AWS account or access to an existing account to use Amplify?
 
-Your APL will provide your team with access to a BloomTech managed AWS account.
+Your RM will provide your team with access to a BloomTech managed AWS account.
 
 ### How do I configure the Amplify build process?
 
